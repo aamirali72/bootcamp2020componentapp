@@ -40,4 +40,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./build http://ceaseless-belief.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build http://marvelous-houses.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
